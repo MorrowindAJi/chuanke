@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+	<!--<![endif]-->
+
+	<head>
+		<title>I Am 创客</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/foundation.min.css">
+		<link rel="stylesheet" href="css/superfish.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link href='http://fonts.useso.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+<link rel="stylesheet" href="css/ie-fixes.css">
+<![endif]-->
+		<script src="js/custom.modernizr.js"></script>
+		<script>
+			Modernizr.load({
+				// test if browser understands media queries
+				test: Modernizr.mq('only all'),
+				// if not load ie8-grid
+				nope: 'css/ie8-grid-foundation-4.css'
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="header-outter">
+			<div class="row header">
+				<div class="columns large-12">
+					<div class="row header-inner">
+						<div class="columns large-3">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo.png" alt=""></a>
+							</div>
+						</div>
+						<div class="columns top-menu large-9 top-nav plr0">
+							<nav>
+								<section>
+									<ul class="sf-menu large-12">
+										<li class="active"><a href="index.html">主页</a></li>
+										<li><a href="blog.html">博客</a></li>
+										<li><a href="gallery.html">人物</a></li>
+										<li><a href="contact.html">联系我们</a></li>
+										<li><a href="about.html">关于</a></li>
+
+									</ul>
+								</section>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="columns large-12 small-top-menu">
+					<div class="row">
+						<div class="columns large-12 plr0 top-nav">
+							<form name="dropdown" class="dropdown" action="#">
+								<nav>
+									<section>
+										<select name="selected" id="target" accesskey="E" onChange="goToNewPage(document.dropdown.selected)">
+                  <option value="index.html">home</option>
+                  <option value="about.html">about us</option>
+                  <option value="blog.html">blog</option>
+                  <option value="gallery.html">gallery</option>
+                  <option value="contact.html">contact us</option>
+                </select>
+									</section>
+								</nav>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row content-wrapper">
+			<div class="columns large-12">
+				<div class="row wrapper">
+					<div class="columns large-12 content ">
+						<h1 class="page-title">联系我们</h1>
+						<div>
+							<h2 class="sub-title">如果你有什么好的创意点，或者好的想法却因自身原因无法实现，请联系我们，我们会在一定评估之后决定是否赞助或者支持你的想法。<p>一旦你的项目通过，我们将会与你签订合同，帮助你开发你的项目。</h2>
+
+						</div>
+						<div class="row collapse contact-form">
+							<div class="columns large-4">
+								<ul class="vcard">
+									<li class="fn">罗格</li>
+									<li class="street-address">贺州学院</li>
+									<li class="locality">广西壮族自治区</li>
+									<li>贺州,八步区</li>
+									<li class="email"><a href="#">email@domain.com</a></li>
+									<li class="telephone">Tel:<a href="#">0778-12345678</a></li>
+									<li class="fax">Tel:<a href="#">1800-726-192</a></li>
+								</ul>
+							</div>
+							<div class="columns large-7 large-offset-1">
+								<form id="contact-form" method="get" action="contact.html">
+									姓名:<input type="text" name="name" placeholder="姓名:"> 电子邮件:
+									<input type="text" name="email" placeholder="电子邮件:"> 项目名称:
+									<input type="text" name="subject" placeholder="项目名称:"> 项目简介: <textarea name="message" placeholder="项目简介"></textarea>
+									<input type="submit" class="button" name="submit" value="send">
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="row collapse">
+						<div class="columns large-12">
+							<div id="map_canvas"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="row footer">
+			<div class="columns large-12">
+				<div class="row content-wrapper-inner">
+					<div class="columns large-8">
+						<div class="row">
+							<div class="columns large-12">
+								<h3>寻求合作伙伴</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="columns large-3"><img src="images/df.jpg" alt="" class="test-img"></div>
+							<div class="columns content large-9 testimonials-text">我们正在寻求更多的商业合作伙伴，如果你有足够的财力，我们非常希望你能加入我们。一旦成为我们合作伙伴, 你可以在第一时间了解有哪些好的项目，并可以拿到一手资料，从而抢占商机。
+								<p><span class="credit"><span class="name">联系电话：010-4164-465498</span>
+									<span class="profession">公司地址：广西壮族自治区，南宁，明秀路118号</span></span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="columns content large-4 whychooseus">
+						<h3>精英汇聚地</h3>
+						<p>如果你暂时没有好的想法，或者还有瑕疵，你可以登陆我们的论坛，向其他人请教。</p>
+						<a class="button grey" href="#">进入论坛</a> </div>
+				</div>
+			</div>
+		</footer>
+		<div class="footer-meta">
+			<div class="row">
+				<div class="columns large-4">
+					<ul class="large-block-grid-4">
+						<li>
+							<a class="media-wrapper" href="#"><img src="images/xinlang.jpg" alt=""></a>
+						</li>
+						<li>
+							<a class="media-wrapper" href="#"><img src="images/baidu.png" alt=""></a>
+						</li>
+					</ul>
+				</div>
+				<p align="right">版权所属
+
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/hoverIntent.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="js/google-maps.js"></script>
+		<script>
+			Modernizr.load({
+				test: Modernizr.placeholder,
+				nope: 'js/placeholder.min.js'
+			});
+
+			function goToNewPage() {
+				if (document.getElementById('target').value) {
+					window.location.href = document.getElementById('target').value;
+				}
+			}
+		</script>
+		<script>
+			$(document).ready(function() {
+				$('ul.sf-menu').superfish({
+					animation: {
+						height: 'show'
+					},
+					delay: 400
+				});
+			});
+		</script>
+	</body>
+
+</html>
